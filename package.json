@@ -1,0 +1,23 @@
+{
+  "name": "study-cors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runApp": "npx http-server -a localhost -p 5500 -c-1 -o",
+    "runRemote": "npx run remoteHost.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenysParkhomenko/study-cors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenysParkhomenko/study-cors/issues"
+  },
+  "homepage": "https://github.com/DenysParkhomenko/study-cors#readme",
+  "devDependencies": {
+    "http-server": "^13.0.1"
+  }
+}
